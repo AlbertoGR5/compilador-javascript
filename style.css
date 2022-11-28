@@ -1,14 +1,47 @@
 *{
-    font-family: 'Roboto', sans-serif;
+    font-family: jetbrains mono;
 }
 body {
     margin: 0;
     background-image: url("images/background-img.jpg");
 }
+h1 {
+    font-size: 3em;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+}
+section {
+    float: left;
+    width: 60%;
+    background-color: #fff;
+}
+#header {
+    background-color: #282934;
+    color: #fff;
+}
+#logoc{
+    margin: 0 0 0 50px;
+    width: 220px;
+    color: #fff;
+}
 .container {
-    width: 1300px;
-    margin: 20px 20px 20px 20px;
+    width: 95%;
+    margin: 0 auto 0 auto;
     background-color: rgba(0, 0, 0, 0.438);
+}
+#menu {
+    background-color: #282934;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+#sidebar {
+    float: left;
+    width: 20%;
+    background-color: #282934;
+    color: #fff;
 }
 #compile{
     width: 120px;
