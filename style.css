@@ -33,23 +33,23 @@ section {
 }
 #menu {
     background-color: #282934;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-}
-#sidebar {
     float: left;
     width: 20%;
-    background-color: #282934;
-    color: #fff;
+    height: 100%;
+    margin: 0 0 0 0;
 }
-#compile{
-    width: 120px;
-    height: 30px;
-    margin: 10px;
+#menu ul {
+    list-style-type: none;
+    margin: 30px auto 20px 70px;
     padding: 0;
-    color: #fff;
-    background-color: #000;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #0000;
+}
+#menu ul li {
+    padding: 10px 0 10px 0;
+}
+#compi{
+    background-color: aqua;
+    float: right;
+    width: 80%;
+    height: auto;
+    margin: 0 0 0 0;
 }
