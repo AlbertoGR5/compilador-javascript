@@ -3,7 +3,7 @@
 }
 body {
     margin: 0;
-    background-image: url("images/background-img.jpg");
+    padding: 0;
 }
 h1 {
     font-size: 3em;
@@ -20,6 +20,7 @@ section {
 #header {
     background-color: #282934;
     color: #fff;
+    height: 20vh;
 }
 #logoc{
     margin: 0 0 0 50px;
@@ -32,24 +33,46 @@ section {
     background-color: rgba(0, 0, 0, 0.438);
 }
 #menu {
-    background-color: #282934;
+    background-color: #32333d;
     float: left;
+    display: flex;
     width: 20%;
-    height: 100%;
-    margin: 0 0 0 0;
+    height: 80vh;
+    margin: 0 0 auto 0;
 }
 #menu ul {
     list-style-type: none;
-    margin: 30px auto 20px 70px;
+    margin: auto 30px auto 35px;
     padding: 0;
 }
-#menu ul li {
+#menu ul li a{
+    margin: 0 0 20px 0;
     padding: 10px 0 10px 0;
+    color: aliceblue;
 }
 #compi{
-    background-color: aqua;
+    background-color: #3e3e44;
     float: right;
     width: 80%;
-    height: auto;
+    height: 80vh;
+    display: flex;
+    margin: 0 0 auto 0;
+}
+#inputcode{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    float: left;
+    width: 45%;
+    height: auto !important;
     margin: 0 0 0 0;
+}
+#inputcode2{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    float: right;
+    width: 45%;
+    height: auto !important;
+    margin: 0 0 0 auto;
 }
