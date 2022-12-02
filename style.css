@@ -20,11 +20,11 @@ section {
 #header {
     background-color: #282934;
     color: #fff;
-    height: 20vh;
+    height: 10vh;
 }
 #logoc{
     margin: 0 0 0 50px;
-    width: 220px;
+    height: 10vh;
     color: #fff;
 }
 .container {
@@ -37,15 +37,15 @@ section {
     float: left;
     display: flex;
     width: 20%;
-    height: 80vh;
+    height: 90vh;
     margin: 0 0 auto 0;
 }
 #menu ul {
     list-style-type: none;
-    margin: auto 30px auto 35px;
+    margin: 45px 30px auto 35px;
     padding: 0;
 }
-#menu ul li a{
+#menu ul li{
     margin: 0 0 20px 0;
     padding: 10px 0 10px 0;
     color: aliceblue;
@@ -54,7 +54,7 @@ section {
     background-color: #3e3e44;
     float: right;
     width: 80%;
-    height: 80vh;
+    height: 90vh;
     display: flex;
     margin: 0 0 auto 0;
 }
